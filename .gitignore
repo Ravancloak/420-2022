@@ -1,0 +1,6 @@
+*.png
+*.gif
+/420.saves
+/autobackups
+c_debug.txt
+g_debug.txt

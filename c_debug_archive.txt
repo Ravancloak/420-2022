@@ -1,0 +1,65 @@
+
+  +++|=========>  APPLY SWORD, CUT HERE (Please send whole sections)
+
+Loading C:\Users\eonhe\Documents\GitHub\420-2022\ohrrpgce-win-default\support\CrashRpt1403.dll
+ 0.0   ----Starting OHRRPGCE Custom----
+ 0.0  04-20-2022 13:29:47
+ 0.0  OHRRPGCE wip 20220420.12910 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.08.1 (2021-07-05) gcc 8.1.0 x86 pdb  Built on vampirecell -g -exx -gen gcc Win32 32-bit
+ 0.0  exepath: C:\Users\eonhe\Documents\GitHub\420-2022\ohrrpgce-win-default, exe: C:\Users\eonhe\Documents\GitHub\420-2022\ohrrpgce-win-default\custom.exe
+ 0.0  orig_dir: C:\Users\eonhe\Documents\GitHub\420-2022\ohrrpgce-win-default
+ 0.0  curdir: C:\Users\eonhe\Documents\GitHub\420-2022\ohrrpgce-win-default
+ 0.0  Runtime info:   music_sdl2, SDL 2.0.16, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.0  documents_dir: C:\Users\eonhe\Documents
+ 0.0  config: C:\Users\eonhe\AppData\Roaming\OHRRPGCE\ohrrpgce_config.ini
+ 0.0  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.0  set_resolution 480*320
+ 0.0  Setting graphics scaling to x2 change_windowsize=-1
+ 0.0  gfx_sdl2_set_window_size 480,320, zoom=2
+ 0.0  Initialising gfx_sdl2...
+ 0.1  setvideomode zoom=2 w*h = 960,640
+ 0.2  gfx_sdl2 "SDL 2.0.16 (0 joysticks) Driver: windows (Drivers: windows dummy) Render driver: direct3d (Drivers: direct3d (hwaccel,vsync,textarget) opengl (hwaccel,vsync,textarget) opengles2 (hwaccel,vsync,textarget) software (textarget))"
+ 0.2  disable_native_text_input=0
+ 0.2  unlock_resolution(320,200)
+ 0.2  music_sdl2, SDL 2.0.16, SDL_Mixer 2.0.5
+ 0.2  music_sdl2, SDL_Mixer 2.0.5 (48000Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.3  Working in C:\Users\eonhe\AppData\Roaming\OHRRPGCE\working0.tmp
+ 3.4  check_ok_to_open...
+ 3.4  pid_current_exe = \Device\HarddiskVolume3\Users\eonhe\Documents\GitHub\420-2022\ohrrpgce-win-default\custom.exe
+ 3.4  prev_session.workingdir = C:\Users\eonhe\AppData\Roaming\OHRRPGCE\working0.tmp
+ 3.4  prev_session.info_file_exists = YES
+ 3.4  prev_session.pid = 5596 (exe = \Device\HarddiskVolume3\Users\eonhe\Documents\GitHub\420-2022\ohrrpgce-win-default\custom.exe)
+ 3.4  prev_session.running = YES
+ 3.4  prev_session.partial_rpg = NO
+ 3.4  prev_session.fresh_danger_tmp = NO
+ 3.4  prev_session.sourcerpg = 
+ 3.4  prev_session.sourcerpg_old_mtime = 0
+ 3.4  prev_session.sourcerpg_current_mtime = 0
+ 3.4  prev_session.session_start_time = 2022 Apr 20 13:29:47
+ 3.4  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 3.4   ----Loading a game----
+ 3.4  04-20-2022 13:29:51
+ 3.4  curdir: C:\Users\eonhe\Documents\GitHub\420-2022
+ 3.4  tmpdir: C:\Users\eonhe\AppData\Roaming\OHRRPGCE\
+ 3.4  settings_dir: C:\Users\eonhe\AppData\Roaming\OHRRPGCE
+ 3.4  config: C:\Users\eonhe\AppData\Roaming\OHRRPGCE\ohrrpgce_config.ini
+ 3.4  Editing game C:\Users\eonhe\Documents\GitHub\420-2022\420.rpg ( )
+ 3.5  Full game data upgrade...
+ 3.5  Last edited by: [[OHRRPGCE wip 20220409.12890 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.08.1 (2021-07-05) gcc 8.1.0 x86 pdb  Built on vampirecell  -g -exx -gen gcc Win32 32-bit]] branch_rev 12220
+ 3.5  archinym creation info: OHRRPGCE wip 20220409
+19.1  ! (BUG) Opening C:\Users\eonhe\Documents\GitHub\420-2022\art\masterpal.bmp twice! Probably a mistake
+19.1  ! (BUG) Opening C:\Users\eonhe\Documents\GitHub\420-2022\art\masterpal.bmp twice! Probably a mistake
+19.9  ! (BUG) Opening C:\Users\eonhe\Documents\GitHub\420-2022\art\masterpal.bmp twice! Probably a mistake
+19.9  ! (BUG) Opening C:\Users\eonhe\Documents\GitHub\420-2022\art\masterpal.bmp twice! Probably a mistake
+45.5  Saving - been editing for 42s
+66.9  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_44596
+67.2  Channel connection received (after 46ms)
+88.3  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+91.7  Saving - been editing for 46s
+91.7  Cleaning up and terminating 0
+91.8  Closing music backend...
+91.8  ...done
+92.8  Closing gfx backend & allmodex...
+92.8  ...done
+92.8  End.

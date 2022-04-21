@@ -1,8 +1,9 @@
 *.png
 *.gif
 *.zip
-c_debug_archive.txt
 /420.saves
 /autobackups
+/ohrrpgce-win-default
 c_debug.txt
 g_debug.txt
+c_debug_archive.txt

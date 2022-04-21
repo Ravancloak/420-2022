@@ -1,5 +1,7 @@
 *.png
 *.gif
+*.zip
+c_debug_archive.txt
 /420.saves
 /autobackups
 c_debug.txt

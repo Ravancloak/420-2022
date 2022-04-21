@@ -1,3 +1,0 @@
-Press Enter or Space to browse for a color that will be used as the foreground (border) color for the rectangle.
-
-The forground color will often be completely covered up if the rectangle uses a border style.

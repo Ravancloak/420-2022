@@ -1,3 +1,0 @@
-A horizontal Panel is divided into left and right halves.
-
-A vertical Panel is divided into top and bottom halves.

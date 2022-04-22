@@ -3,6 +3,7 @@
 define constant, begin
 2,tag:pottyColdBurrito
 0,song:assfaultia
+1,song:battle
 0,hero:Grolblie
 1,hero:Weeble
 0,stat:HP

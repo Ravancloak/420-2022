@@ -26,3 +26,12 @@ else(
 show text box(7)
 wait for text box)
 end
+
+
+plotscript,opentrashcan,begin
+if ((NPC Direction (3)) == (up))
+then (
+show text box(8)
+wait for text box
+)
+end

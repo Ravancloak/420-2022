@@ -1,3 +1,28 @@
 plotscript, defnewgame, begin
 	addHero(hero:weeble)
 end
+
+
+plotscript,usepotty,begin
+if  (not(check tag(2)))
+then (
+set hero picture (find hero(hero:grolblie), 8)
+show text box(1)
+wait for text box
+show text box(2)
+wait for text box
+show text box (3)
+wait for text box
+reset hero picture(find hero(hero:grolblie))
+show text box(4)
+wait for text box
+show text box(5)
+wait for text box
+show text box(6)
+wait for text box
+set tag(2, on)
+)
+else(
+show text box(7)
+wait for text box)
+end

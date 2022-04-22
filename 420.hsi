@@ -1,6 +1,8 @@
 # HamsterSpeak constant definitions for 420.rpg
 
 define constant, begin
+2,tag:pottyColdBurrito
+0,song:assfaultia
 0,hero:Grolblie
 1,hero:Weeble
 0,stat:HP
@@ -36,4 +38,13 @@ define constant, begin
 3,slot:Body
 4,slot:Arms
 5,slot:Legs
+0,enemy:Pants
+1,enemy:Box of Kittens
+2,enemy:Toilet Flowers
+3,enemy:Thimble Agent
+4,enemy:Shadow Person
+5,enemy:Nondescript Van
+6,enemy:Giant Pigeon
+7,enemy:Garbage Thingy
+8,enemy:Buff Cart
 end

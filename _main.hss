@@ -28,10 +28,20 @@ wait for text box)
 end
 
 
-plotscript,opentrashcan,begin
-if ((NPC Direction (3)) == (up))
+plotscript,opentrashcan,blank,who,begin
+variable(which)
+which:=random(0,9)
+
+if (NPC Direction(who) == 0)
 then (
+get item name(0,which)
+get item(which)
+set npc direction(who,left)
 show text box(8)
 wait for text box
+
+
 )
+else (show text box(2)
+wait for text box)
 end

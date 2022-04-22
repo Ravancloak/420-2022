@@ -42,6 +42,17 @@ wait for text box
 
 
 )
-else (show text box(2)
+else (show text box(18)
+wait for text box)
+end
+
+
+plotscript,pannedPete,begin
+if (not(check tag(3)))
+then (
+show text box(9)
+)
+else(
+show text box(17)
 wait for text box)
 end

@@ -2,20 +2,21 @@
 
 define constant, begin
 2,tag:pottyColdBurrito
+3,tag:pannedPeteTalkedTo
 0,song:assfaultia
 1,song:battle
 0,hero:Grolblie
 1,hero:Weeble
-0,item:An Ass
-1,item:Baggie
-2,item:Ahit
-3,item:hello
-4,item:jam
-5,item:man
-6,item:cukoo
-7,item:kuckoo
-8,item:dfdfs
-9,item:sdasda
+0,item:Condom
+1,item:Tin Foil
+2,item:SO Lotto
+3,item:Beer Can
+4,item:Syringe
+5,item:Roach
+6,item:BBottle
+7,item:Sock
+8,item:Sammich
+9,item:Napkin
 0,stat:HP
 1,stat:MP
 2,stat:Atk

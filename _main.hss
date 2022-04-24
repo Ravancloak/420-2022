@@ -59,13 +59,76 @@ end
 
 
 plotscript,tacoMancometh,begin
-if (not(check tag(5)))
+if (not(check tag(4)))
 then (
 suspend player
-walk npc(10,right,6)
-wait(28)
+show text box(19)
+wait for text box
+walk npc(10,right,5)
+wait(23)
 set tag(4,on)
-set tag(5, on)
+show text box(20)
+wait for text box
+show text box(21)
+wait for text box
+show text box(22)
+wait for text box
+show text box(23)
+wait for text box
+show text box(24)
+wait for text box
+show text box(25)
+wait for text box
 resume player
+)
+
+else (
+show text box(26)
+wait for text box)
+
+end
+
+plotscript,GrackleTalk,begin
+if (not(check tag(5)))
+then(
+suspend npcs
+show text box(28)
+wait for text box
+show text box(29)
+wait for text box
+show text box(30)
+wait for text box
+show text box(31)
+wait for text box
+show text box(32)
+wait for text box
+show text box(33)
+wait for text box
+show text box(34)
+wait for text box
+show text box(35)
+wait for text box
+show text box(36)
+wait for text box
+show text box(37)
+wait for text box
+show text box(38)
+wait for text box
+show text box(39)
+wait for text box
+show text box(40)
+wait for text box
+show text box(41)
+wait for text box
+show text box(42)
+wait for text box
+show text box(43)
+wait for text box
+set tag(5,on)
+resume npcs
+)
+else (
+show text box(44)
+wait for text box
 )
 end

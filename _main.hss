@@ -56,3 +56,16 @@ else(
 show text box(17)
 wait for text box)
 end
+
+
+plotscript,tacoMancometh,begin
+if (not(check tag(5)))
+then (
+suspend player
+walk npc(10,right,6)
+wait(28)
+set tag(4,on)
+set tag(5, on)
+resume player
+)
+end

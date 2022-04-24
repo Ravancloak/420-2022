@@ -3,6 +3,7 @@
 define constant, begin
 2,tag:pottyColdBurrito
 3,tag:pannedPeteTalkedTo
+4,tag:tacoTruckActivated
 0,song:assfaultia
 1,song:battle
 0,hero:Grolblie

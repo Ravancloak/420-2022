@@ -6,6 +6,7 @@ define constant, begin
 4,tag:tacoTruckActivated
 0,song:assfaultia
 1,song:battle
+0,sfx:untitled
 0,hero:Grolblie
 1,hero:Weeble
 0,item:Condom
@@ -20,6 +21,8 @@ define constant, begin
 9,item:Napkin
 10,item:Burrito
 11,item:Taco
+12,item:Fist
+13,item:Palm
 0,stat:HP
 1,stat:MP
 2,stat:Atk
@@ -53,6 +56,15 @@ define constant, begin
 3,slot:Body
 4,slot:Arms
 5,slot:Legs
+1,atk:Punch
+2,atk:Slap
+3,atk:Heal
+4,atk:Dilemma
+5,atk:So CUTE
+6,atk:Slam
+7,atk:Garbage
+8,atk:Harden
+9,atk:Bidet Heal
 1,shop:The La Troca
 0,enemy:Pants
 1,enemy:Box of Kittens

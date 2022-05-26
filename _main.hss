@@ -50,11 +50,18 @@ end
 plotscript,pannedPete,begin
 if (not(check tag(3)))
 then (
+alter NPC (5,NPCstat:move type,NPCmovetype:walkinplace)
 show text box(9)
 )
 else(
+alter NPC (5,NPCstat:move type,NPCmovetype:walkinplace)
 show text box(17)
 wait for text box)
+end
+
+
+plotscript,afterTalkPete,begin
+alter NPC (5,NPCstat:move type,NPCmovetype:wander)
 end
 
 
@@ -131,4 +138,10 @@ else (
 show text box(44)
 wait for text box
 )
+end
+
+
+
+plotscript,tacoPiss,begin
+play sound (0)
 end

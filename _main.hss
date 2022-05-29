@@ -1,5 +1,6 @@
 plotscript, defnewgame, begin
 	addHero(hero:weeble)
+	show text box (56)
 end
 
 
@@ -144,4 +145,10 @@ end
 
 plotscript,tacoPiss,begin
 play sound (0)
+end
+
+
+
+plotscript,GameIntro,begin
+show text box (56)
 end

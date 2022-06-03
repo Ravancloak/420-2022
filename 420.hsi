@@ -10,6 +10,7 @@ define constant, begin
 3,song:protector of cardboard
 4,song:purple farts majesty
 5,song:the theme of piss
+6,song:prophecy
 0,sfx:untitled
 1,sfx:TextBlip1
 0,hero:Grolblie
@@ -70,6 +71,7 @@ define constant, begin
 7,atk:Garbage
 8,atk:Harden
 9,atk:Bidet Heal
+10,atk:Mad Hype
 1,shop:The La Troca
 0,enemy:Pants
 1,enemy:Box of Kittens

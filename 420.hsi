@@ -29,6 +29,7 @@ define constant, begin
 11,item:Taco
 12,item:Fist
 13,item:Palm
+14,item:levelUp
 0,stat:HP
 1,stat:MP
 2,stat:Atk
@@ -72,6 +73,19 @@ define constant, begin
 8,atk:Harden
 9,atk:Bidet Heal
 10,atk:Mad Hype
+11,atk:Look Out
+12,atk:Manchurian
+13,atk:Shoot
+14,atk:Air Strike
+15,atk:Sonar
+16,atk:Rapid Atk
+17,atk:Hellfire
+18,atk:fire
+19,atk:ShadeSlash
+20,atk:Paralysis
+21,atk:TemporalD
+22,atk:Pummel
+23,atk:Calm
 1,shop:The La Troca
 0,enemy:Pants
 1,enemy:Box of Kittens

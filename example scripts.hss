@@ -1,0 +1,140 @@
+#start of instead of battle script
+#==================================================================================
+#==================================================================================
+
+define constant, begin
+
+	#max level of each formation set
+	3, levelcheck1
+	6, levelcheck2
+	9, levelcheck3
+	12, levelcheck4
+	15, levelcheck5
+	18, levelcheck6
+
+	#formation that you set in editor to trigger normal scaling set
+	0, parkingformation #change 0 to be formation that triggers normal set
+
+	#formation set numbers of each scaling set
+	0, parkingset1 #change the 0 to be the number of the formation you want to fight
+	0, parkingsets 
+	0, parkingset3 #ditto
+	0, parkingset4
+	0, parkingset5 #ditto
+	0, parkingset6
+
+	#formation that you set in editor to trigger bird scaling set
+	0, birdformation #change 0 to be formation that triggers bird set
+
+	#same as above, but for birds
+	0, birdset1 #change the 0 to be the number of the formation you want to fight
+	0, birdsets 
+	0, birdset3 #ditto
+	0, birdset4
+	0, birdset5 #ditto
+	0, birdset6
+
+	#formation that you set in editor to trigger sewer scaling set
+	0, sewerformation #change 0 to be formation that triggers sewer set
+
+	#same as above, but for sewer
+	0, sewerset1 #change the 0 to be the number of the formation you want to fight
+	0, sewersets 
+	0, sewerset3 #ditto
+	0, sewerset4
+	0, sewerset5 #ditto
+	0, sewerset6 
+end
+
+
+#This takes the above numbers and chooses the formation you fight.
+#Set as an instead of battle script.
+#
+#it also fully heals the party and revives members.
+plotscript, defbattlescript, formation, begin
+	switch (formation) do (
+		case (parkinglotformation) do (
+			if (get hero level (me) <= levelcheck1) then (
+				fight formation (random formation (parkingset1))
+
+			) else if (get hero level (me) <= levelcheck2) then (
+				fight formation (random formation (parkingset2))
+
+			) else if (get hero level (me) <= levelcheck3) then (
+				fight formation (random formation (parkingset3))
+
+			) else if (get hero level (me) <= levelcheck4) then (
+				fight formation (random formation (parkingset4))
+
+			) else if (get hero level (me) <= levelcheck5) then (
+				fight formation (random formation (parkingset5))
+
+			) else (
+				fight formation (random formation (parkingset6))
+			)
+		)
+		case (birdformation) do (
+			if (get hero level (me) <= levelcheck1) then (
+				fight formation (random formation (birdset1))
+
+			) else if (get hero level (me) <= levelcheck2) then (
+				fight formation (random formation (birdset2))
+
+			) else if (get hero level (me) <= levelcheck3) then (
+				fight formation (random formation (birdset3))
+
+			) else if (get hero level (me) <= levelcheck4) then (
+				fight formation (random formation (birdset4))
+
+			) else if (get hero level (me) <= levelcheck5) then (
+				fight formation (random formation (birdset5))
+
+			) else (
+				fight formation (random formation (birdset6))
+			)
+		)
+		case (sewerformation) do (
+			if (get hero level (me) <= levelcheck1) then (
+				fight formation (random formation (sewerset1))
+
+			) else if (get hero level (me) <= levelcheck2) then (
+				fight formation (random formation (sewerset2))
+
+			) else if (get hero level (me) <= levelcheck3) then (
+				fight formation (random formation (sewerset3))
+
+			) else if (get hero level (me) <= levelcheck4) then (
+				fight formation (random formation (sewerset4))
+
+			) else if (get hero level (me) <= levelcheck5) then (
+				fight formation (random formation (sewerset5))
+
+			) else (
+				fight formation (random formation (sewerset6))
+			)
+		)
+	) else do (
+		$99="you did not set the formation correctly, either in editor or in .hss file"
+		script error (0)
+		$99=""
+	)
+
+	heal party (true)
+end
+
+#==================================================================================
+#==================================================================================
+#end of instead of battle script
+
+
+
+
+#lines to add to other existing scripts
+#==================================================================================
+#==================================================================================
+
+#add this line to new game script:
+#set level cap (cap)
+
+#==================================================================================
+#==================================================================================

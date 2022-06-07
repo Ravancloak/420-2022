@@ -172,7 +172,7 @@ define constant, begin
 	#max level of each formation set
 	3, levelcheck1
 	6, levelcheck2
-	9, levelcheck3
+	10, levelcheck3
 	12, levelcheck4
 	15, levelcheck5
 	18, levelcheck6

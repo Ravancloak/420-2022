@@ -86,6 +86,16 @@ define constant, begin
 21,atk:TemporalD
 22,atk:Pummel
 23,atk:Calm
+24,atk:Ticket
+25,atk:GetEm
+26,atk:ResistArre
+27,atk:Sweet Hype
+29,atk:Flame All
+30,atk:fire2
+31,atk:aboveLaw
+32,atk:stungun
+33,atk:stun
+34,atk:Heal All
 1,shop:The La Troca
 0,enemy:Pants
 1,enemy:Box of Kittens
@@ -96,4 +106,9 @@ define constant, begin
 6,enemy:Giant Pigeon
 7,enemy:Garbage Thingy
 8,enemy:Buff Cart
+9,enemy:Better Cop
+10,enemy:Good Cop
+11,enemy:Little Green Man
+12,enemy:Grey
+13,enemy:Flying Saucer
 end

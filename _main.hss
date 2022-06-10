@@ -1,5 +1,6 @@
 plotscript, defnewgame, begin
 	addHero(hero:weeble)
+	set level cap (10)
 	show text box (56)
 end
 
@@ -300,3 +301,36 @@ end
 
 #add this line to new game script:
 #set level cap (cap)
+
+
+plotscript,smokeEvaporate,begin
+suspend player
+set npc direction(15,right)
+wait(3)
+set npc direction(15,down)
+wait(3)
+set npc direction(15,left)
+wait(3)
+set npc position(15,1,5)
+set npc direction(15,up)
+resume player
+show text box(71)
+end
+
+
+plotscript,hoboDisapear,begin
+suspend player
+set npc position(15,25,4)
+set npc direction(15,up)
+set tag(5,on)
+wait(7)
+set npc direction(15,right)
+wait(3)
+set npc direction(15,down)
+wait(3)
+set npc direction(15,left)
+wait(3)
+set tag(6,on)
+resume player
+show text box(72)
+end

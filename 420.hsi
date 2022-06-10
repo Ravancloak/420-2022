@@ -4,6 +4,8 @@ define constant, begin
 2,tag:pottyColdBurrito
 3,tag:pannedPeteTalkedTo
 4,tag:tacoTruckActivated
+5,tag:hoboThere
+6,tag:cloudThere
 0,song:assfaultia
 1,song:battle
 2,song:found babymen
@@ -96,6 +98,19 @@ define constant, begin
 32,atk:stungun
 33,atk:stun
 34,atk:Heal All
+35,atk:Chi Charge
+36,atk:Raise Dead
+37,atk:Kamehameha
+38,atk:Slash
+39,atk:condomstun
+40,atk:beerMP
+41,atk:syringePoi
+42,atk:smokemagic
+43,atk:atkUp
+44,atk:Ass Blast
+45,atk:fart2
+46,atk:fart3
+47,atk:fart4
 1,shop:The La Troca
 0,enemy:Pants
 1,enemy:Box of Kittens

@@ -334,3 +334,29 @@ set tag(6,on)
 resume player
 show text box(72)
 end
+
+
+
+#set to be the default on step script in the sewer map
+plotscript, waterstep, begin
+    variable (sli, i, waterzone)
+
+    #change the 0 here to be the zone that is placed where there is water.
+    waterzone := 2
+
+    #step picture (who, new walkabout)
+    stepPicture(me, 22) #change the 0 to be the water walkabout of first hero
+    stepPicture(1, 23)
+
+    #checks for waterzone at spot to change walkabout to new walkabout
+    subscript, stepPicture, who, new, begin
+        variable (x, y)
+        resetHeroPicture(who)
+        x := heroX(who)
+        y := heroY(who)
+        if (zone at spot (x,y)==waterzone) then (
+            setHeroPicture(who, new)
+            play sound (2)
+        )
+    end
+end

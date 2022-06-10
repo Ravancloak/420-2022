@@ -15,6 +15,7 @@ define constant, begin
 6,song:prophecy
 0,sfx:untitled
 1,sfx:TextBlip1
+2,sfx:water_steps
 0,hero:Grolblie
 1,hero:Weeble
 0,item:Condom

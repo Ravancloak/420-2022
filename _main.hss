@@ -98,7 +98,7 @@ wait for text box)
 end
 
 plotscript,GrackleTalk,begin
-if (not(check tag(5)))
+if (not(check tag(7)))
 then(
 suspend npcs
 show text box(28)
@@ -173,8 +173,8 @@ define constant, begin
 	#max level of each formation set
 	3, levelcheck1
 	6, levelcheck2
-	10, levelcheck3
-	12, levelcheck4
+	9, levelcheck3
+	10, levelcheck4
 	15, levelcheck5
 	18, levelcheck6
 
@@ -185,7 +185,7 @@ define constant, begin
 	1, parkingset1 #change the 0 to be the number of the formation you want to fight
 	3, parkingset2 
 	4, parkingset3 #ditto
-	0, parkingset4
+	5, parkingset4
 	0, parkingset5 #ditto
 	0, parkingset6
 

@@ -6,6 +6,7 @@ define constant, begin
 4,tag:tacoTruckActivated
 5,tag:hoboThere
 6,tag:cloudThere
+7,tag:grackletalk
 0,song:assfaultia
 1,song:battle
 2,song:found babymen
@@ -112,6 +113,11 @@ define constant, begin
 45,atk:fart2
 46,atk:fart3
 47,atk:fart4
+48,atk:laser
+49,atk:Probe
+50,atk:MPDown
+51,atk:Punch 2
+52,atk:defUP
 1,shop:The La Troca
 0,enemy:Pants
 1,enemy:Box of Kittens

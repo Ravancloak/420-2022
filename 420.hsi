@@ -7,6 +7,8 @@ define constant, begin
 5,tag:hoboThere
 6,tag:cloudThere
 7,tag:grackletalk
+8,tag:roadkillOn
+9,tag:redWagon
 0,song:assfaultia
 1,song:battle
 2,song:found babymen
@@ -15,7 +17,7 @@ define constant, begin
 5,song:the theme of piss
 6,song:prophecy
 0,sfx:untitled
-1,sfx:TextBlip1
+1,sfx:TextboxBloop8Bit
 2,sfx:water_steps
 0,hero:Grolblie
 1,hero:Weeble
@@ -34,6 +36,7 @@ define constant, begin
 12,item:Fist
 13,item:Palm
 14,item:levelUp
+15,item:Corpse
 0,stat:HP
 1,stat:MP
 2,stat:Atk

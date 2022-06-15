@@ -360,3 +360,23 @@ plotscript, waterstep, begin
         )
     end
 end
+
+
+plotscript,wagonMount,begin
+alter NPC (21,NPCstat:picture,24)
+end
+
+
+plotscript,wagonDismount,begin
+alter NPC (21,NPCstat:picture,25)
+end
+
+
+plotscript,map0Autorun,begin
+resetheropicture(me)
+if (hero by slot(1) == -1)
+then ()
+else (
+resetheropicture(1))
+end
+

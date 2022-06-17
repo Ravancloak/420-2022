@@ -380,3 +380,12 @@ else (
 resetheropicture(1))
 end
 
+plotscript,peteBabyget,begin
+if (inventory(item:BabyMan) == 1)
+then (show text box (108))
+else if(inventory(item:BabyMan) == 2)
+then(show text box(109))
+else if(inventory(item:BabyMan) == 3)
+then (show text box(110))
+aftertalkpete
+end

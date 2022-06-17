@@ -9,6 +9,9 @@ define constant, begin
 7,tag:grackletalk
 8,tag:roadkillOn
 9,tag:redWagon
+10,tag:baby1Picked
+11,tag:baby2Picked
+12,tag:baby3Picked
 0,song:assfaultia
 1,song:battle
 2,song:found babymen
@@ -37,6 +40,7 @@ define constant, begin
 13,item:Palm
 14,item:levelUp
 15,item:Corpse
+16,item:BabyMan
 0,stat:HP
 1,stat:MP
 2,stat:Atk

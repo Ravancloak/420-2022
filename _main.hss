@@ -389,3 +389,168 @@ else if(inventory(item:BabyMan) == 3)
 then (show text box(110))
 aftertalkpete
 end
+
+plotscript,milkyTime,begin
+suspend npcs
+suspend random enemies
+suspend player
+walk hero to x(me,11)
+wait for hero(me)
+walk hero to y(me,4)
+waitfor hero(me)
+walk hero to x(me,11)
+wait for hero(me)
+walk hero to x(1,12)
+wait for hero(1)
+walk hero to y(1,4)
+wait for hero
+walk hero to x(1,12)
+wait for hero(1)
+set npc position(22,11,2)
+set npc direction(22,down)
+
+
+set hero direction(me,up)
+set hero direction(1,up)
+show text box(136)
+wait for text box
+show text box(137)
+wait for text box
+show text box(138)
+wait for text box
+show text box(139)
+wait for text box
+show text box(140)
+wait for text box
+show text box(141)
+wait for text box
+show text box(142)
+wait for text box
+show text box(143)
+wait for text box
+show text box(144)
+wait for text box
+show text box(145)
+wait for text box
+show text box(146)
+wait for text box
+show text box(147)
+wait for text box
+show text box(148)
+wait for text box
+set tag(10,false)
+set tag(11,false)
+set tag(12,false)
+set npc position(9,10,2)
+set npc position(8,12,2)
+set npc position(7,11,3)
+set npc direction(9,right)
+set npc direction(8,left)
+set npc direction(7,up)
+suspend npcs
+show text box(149)
+wait for text box
+show text box(150)
+wait for text box
+alter NPC (22,NPCstat:picture,27)
+show text box(151)
+wait for text box
+walk npc to y(22,1)
+wait for npc(22)
+walk npcto x(22,13)
+wait for npc(22)
+walk npcto y(8,1)
+wait for npc(8)
+walk npc tox(8,12)
+wait for npc(8)
+set npc direction(8,right)
+wait (10)
+set tag(11,true)
+walk npcto y(9,1)
+wait for npc(9)
+walk npcto x(9,12)
+wait for npc(9)
+set tag(12,true)
+walk npcto y(7,1)
+wait for npc(7)
+walk npcto x(7,12)
+wait for npc(7)
+set tag(10,true)
+resume npcs
+alter NPC (22,NPCstat:move type,NPCmovetype:walkinplace)
+show text box(152)
+wait for text box
+set hero direction(me,right)
+wait (7)
+show text box(153)
+wait for text box
+set hero direction(1,left)
+wait(7)
+show text box(154)
+wait for text box
+show text box(155)
+wait for text box
+set hero direction(me,up)
+set hero direction(1,up)
+show text box(156)
+wait for text box
+show text box(157)
+wait for text box
+show text box(158)
+wait for text box
+show text box(159)
+wait for text box
+show text box(160)
+wait for text box
+set tag(19,true)
+set tag(15,true)
+set tag(16,true)
+set tag(17,true)
+set tag(18,true)
+wait(65)
+alter NPC (26,NPCstat:picture,32)
+set tag(20,on)
+walk npc to y(27,0)
+wait for npc(27)
+walk npc to x(27,10)
+wait for npc(27)
+walk npc to y(27,2)
+wait for npc(27)
+alter NPC (23,NPCstat:move type,NPCmovetype:standstill)
+alter NPC (24,NPCstat:move type,NPCmovetype:standstill)
+alter NPC (25,NPCstat:move type,NPCmovetype:standstill)
+alter NPC (26,NPCstat:move type,NPCmovetype:standstill)
+wait(35)
+set npc direction(26,left)
+wait(2)
+set npc direction(26,up)
+wait(4)
+set npc direction(26,left)
+wait(2)
+set npc direction(26,up)
+wait(4)
+set hero direction(me,right)
+wait(12)
+set hero direction(1,left)
+wait (12)
+set hero direction(me,up)
+set hero direction(1,up)
+wait(45)
+alter NPC (23,NPCstat:move type,NPCmovetype:walkinplace)
+alter NPC (24,NPCstat:move type,NPCmovetype:walkinplace)
+alter NPC (25,NPCstat:move type,NPCmovetype:walkinplace)
+alter NPC (26,NPCstat:move type,NPCmovetype:walkinplace)
+show text box(161)
+wait for text box
+show text box(162)
+wait for text box
+show text box(163)
+wait for text box
+
+
+resume player
+resume random enemies
+end
+
+
+
